@@ -13,7 +13,7 @@ const Intro = () => {
            <div className="vector-bg"
             id="parallax">    
      </div>
-      <img src={cloud} className="cloud-soft" />
+      <img src={cloud} className="cloud" />
 
       <img src={cloudSoft} className="cloud-soft" />
 
