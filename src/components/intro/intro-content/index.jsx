@@ -3,7 +3,7 @@ import {BsAwardFill} from "react-icons/bs";
 import {FaUser} from "react-icons/fa";
 
 import hand from "../../../images/hand.png";
-import girl from "../../../images/girl.png";
+import manan from "../../../images/manan.png";
 import "./style.scss";
 import CallToAction from "../../shared/CallToAction";
 
@@ -31,7 +31,7 @@ const IntroContent = () => {
             <CallToAction text="Contact me" />
         </div>
         <div className="right-col">
-            <img src={girl} alt="MSJ Dev" />
+            <img src={manan} alt="MSJ Dev" />
             <div className="highlight horizontal">
                 <div className="icon">
                     <BsAwardFill />
@@ -39,7 +39,7 @@ const IntroContent = () => {
                 <div className="text">Best Design Award</div>
             </div>
 
-            <div className="hightlight verticle">
+            <div className="highlight verticle">
                 <div className="icon">
                     <FaUser/>
                 </div>
