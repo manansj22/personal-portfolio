@@ -63,8 +63,8 @@
             .highlight {
                 position: absolute;
                 border-radius: 6px;
-                background: white;
-                 .icon {
+                @include glassmorphism-effect;
+                .icon {
                     width: 55px;
                     height: 55px;
                     min-width: 55px;
