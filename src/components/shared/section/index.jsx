@@ -3,7 +3,7 @@ import React from "react";
 import "./style.scss";
 
 
-const Section = ({Children, id, className, title, background}) => {
+const Section = ({children, id, className, title, background}) => {
   return ( 
   <div 
       id={id || ""}
@@ -17,7 +17,7 @@ const Section = ({Children, id, className, title, background}) => {
                 <h2>{title}</h2>
             </div>
         )}
-        {Children}
+        {children}
     </div>
   </div>
   );
