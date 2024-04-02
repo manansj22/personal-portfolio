@@ -77,6 +77,9 @@ const projectsData = [
 function Portfolio() {
     const [projects, setProject] = useState(projectsData);
     const [transition, setTransition] = useState(false);
+
+    const filterProjects = (tag) => {};
+
     return (
         <Section
             id="portfolio"
@@ -84,7 +87,7 @@ function Portfolio() {
             background="light"
         >
             <div className="portfolio-content-wrapper">
-                <Filters />
+                <Filters filterProjects={(tag) => filterProjects(tag)} />
                 <Showcase
                     data={projects}
                     transition={transition} />
