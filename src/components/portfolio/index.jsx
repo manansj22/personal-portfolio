@@ -83,11 +83,31 @@ const projectsData = [
 
 
 
-function Portfolio() {
+const  Portfolio= () => {
     const [projects, setProject] = useState(projectsData);
     const [transition, setTransition] = useState(false);
 
-    const filterProjects = (tag) => {};
+    const filterProjects = (tag) => {
+        setTransition("zoomout");
+
+
+       setTimeout(() => {
+            if(tag !== "all") {
+                const filteredProjects = projectsData.filter((f) => 
+                       f.tags.includes(tag)
+                );
+                setProject(filteredProjects);
+            } else {
+                setProject(projectsData);
+            } 
+            setTransition("zoomin"); 
+        }, 200);
+
+        setTimeout(() => {
+            setTransition(false);
+        }, 600);
+        
+    };
 
     return (
         <Section

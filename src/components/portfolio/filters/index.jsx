@@ -26,12 +26,14 @@ const filtersData = [
 ];
 
 
-const Filters = () => {
+const Filters = ({ filterProjects }) => {
     const [active, setActive] = useState("");
 
     const clickHandler = (id) => {
-        setActive(id)
-    }
+        setActive(id);
+        filterProjects(id);
+
+    };
 
   return (
         <ul className="filter-menu-items">
