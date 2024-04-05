@@ -1,4 +1,5 @@
 import React from "react";
+import Arrow from "../../shared/arrow";
 
 import "./style.scss";
 
