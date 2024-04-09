@@ -22,10 +22,15 @@ const Skills = () => {
             <div className="right-col">
                 <h2>Skills</h2>
                 <p>
-                    The standard chunk of Lorem Ipsum used since the 1500s is  reproduced below for those interested. Sections 1.10.32 
-                    and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
-                    are also reproduced in their exact original form, accompanied
-                    by English versions from the 1914 translation by H. Rackham.
+                Frontend development requires a diverse set of skills to create engaging and user-friendly interfaces.
+                Key skills include proficiency in HTML, CSS, and JavaScript, the foundational languages of the web.
+                Additionally, knowledge of frameworks such as ReactJS, NextJS 
+                enhances the ability to build dynamic and responsive websites. Understanding design principles,
+                version control systems like Git, and the ability to optimize for performance and accessibility
+                are also essential in delivering high-quality frontend solutions.
+                I'm also immersing myself in backend frameworks such as Node.js and Django. 
+                This dual expertise empowers me to create cohesive and scalable web applications 
+                that seamlessly integrate frontend and backend functionalities.
                 </p>
                 <CallToAction text="Download CV "  icon = {<AiOutlineCloudDownload />}/>
             </div>

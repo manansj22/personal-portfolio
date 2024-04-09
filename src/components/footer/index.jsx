@@ -48,7 +48,39 @@ const Footer = () => {
                     Contact me
                 </li>
             </ul>
-            </div>  
+            <div className="social-icons">
+                    <SocialIcon
+                    color="#FF0000"
+                    icon={<FaYoutube/>}
+                    link="https://www.youtube.com"
+                    />
+                    <SocialIcon
+                    color="#0D2636"
+                    icon={<FaGithub/>}
+                    link="https://github.com/manansj22"
+                    />
+                    <SocialIcon
+                    color="#0A66C2"
+                    icon={<FaLinkedinIn/>}
+                    link="https://www.linkedin.com/in/manan-singh-jadon-b80aa31b7/"
+                    />
+                    <SocialIcon
+                    color="#f2740d"
+                    icon={<FaStackOverflow/>}
+                    link="https://stackoverflow.com"
+                    />
+                    <SocialIcon
+                    color="#E84C88"
+                    icon={<FaInstagram/>}
+                    link="https://www.instagram.com/iam_manansj/"
+                    />
+              </div>
+              <div className="bottom-bar">
+                <div className="copyright-text">
+                    Thanks For Visiting
+                </div>
+              </div>
+        </div>  
         
     </Section>
   );

@@ -6,6 +6,7 @@ import hand from "../../../images/hand.png";
 import manan from "../../../images/manan.png";
 import "./style.scss";
 import CallToAction from "../../shared/CallToAction";
+import { scrollToSection } from "../../utils/helpers";
 
 const IntroContent = () => {
   return (
@@ -23,12 +24,14 @@ const IntroContent = () => {
                 <span className="big-text"> Manan Singh Jadon </span>
             </h1>
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. 
+            "Welcome! I'm a passionate web developer dedicated to crafting immersive online experiences. With expertise in HTML,
+            CSS, JavaScript, and more, I thrive on transforming ideas into visually stunning and functional websites.
+            From sleek designs to seamless user interfaces, 
+            I'm committed to delivering tailored solutions that 
+            elevate your online presence. 
+            Let's collaborate and bring your vision to life!" 
             </p>
-            <CallToAction text="Contact me" />
+            <CallToAction text="Contact me"  action={() => scrollToSection("contact")} />
         </div>
         <div className="right-col">
             <img src={manan} alt="MSJ Dev" />
